@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="icon/css/all.css" />
+    <link rel="stylesheet" href="Font-Awesome-4.7.0/css/font-awesome.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="boostrap/css/bootstrap.min.css" />  -->
+
+    <title>test</title>
+  </head>
+  <body class="my-primary">
+    <section>
+      <!--header-->
+
+      <header>
+        <div class="navbar1">
+          <div class="flex-container">
+            <div class="log-bar">
+              
+              <a href="#"> <img src="img/logo.png" id="logo" alt="" /> </a>
+            </div>
+            <div class="bar-anonym">
+              <input
+                type="search"
+                name=""
+                id="search"
+                class="form-control"
+                placeholder="chercher votre emploi..."
+              />
+            </div>
+
+            <div class="bar-anonym"><h4 id="heure"></h4></div>
+            <div class="bar-anonym" id="name">
+
+              <i id="icon-name" class="fas fa-user-circle"></i> JAONAH BEZARA
+
+              
+            </div>
+
+            <div class="bar-anonym">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Upgrade
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bar-anonym">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-primary dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Inviter
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--end header-->
+
+      <!-- Side navigation -->
+      <div>
+        <div class="sidenav">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="https://facebook.cm"> Actualite</a>
+              <a href="#"> Chat et appels</a>
+              <a href="#"> Groupe de travail</a>
+              <a href="#">Calendrier</a>
+              <a href="./driver/driver.html"> Drive</a>
+              <a href="https://facebook.cm"> Actualite</a>
+              <a href="#"> Chat et appels</a>
+              <a href="#"> Groupe de travail</a>
+              <a href="#">Calendrier</a>
+              <a href="#"> Drive</a>
+            </div>
+          </div>
+
+          <a
+            style="color: #972626; font-size: 30px"
+            onclick="openNav()"
+            href="#"
+          >
+            <i class="fas fa-align-justify"></i>
+          </a>
+          <a onclick="openNav()" href="#"> <i class="fas fa-clone"> </i> </a>
+          <a onclick="openNav()" href="#"> <i class="far fa-comment"> </i> </a>
+
+          <a onclick="openNav()" href="#"><i class="fas fa-users"></i> </a>
+          <a onclick="openNav()" href="#"
+            ><i class="far fa-calendar-alt"> </i>
+          </a>
+          <a onclick="openNav()" href="#"><i class="far fa-hdd"> </i> </a>
+          <a onclick="openNav()" href="#">
+            <i class="fas fa-address-card"> </i>
+          </a>
+          <a onclick="openNav()" href="#"> <i class=""> </i> </a>
+          <a onclick="openNav()" href="#"> <i class="fas fa-phone-alt"></i></a>
+          <a onclick="openNav()" href="#"
+            ><i class="fas fa-check-square"></i>
+          </a>
+          <a onclick="openNav()" href="#"><i class="fa fa-windows"> </i> </a>
+        </div>
+      </div>
+      <!-- Side navigation -->
+
+      <!-- Page content  fixed-->
+      <div class="main">
+        <div class="home">
+          <nav class="topnav">
+            <a class="active" href="#">MESSAGE </a>
+
+            <a href="#">TÂCHE</a>
+            <a href="#"> EVENEMENT</a>
+            <a href="#"> CALENDRIER</a>
+            <a href="#">PLUS</a>
+          </nav>
+
+          <form action="">
+            <input
+              type="text"
+              name=""
+              id="input-message"
+              class="form-control"
+              placeholder="Ecrire un message..."
+            />
+          </form>
+        </div>
+
+        <!---- coté droite-->
+        <div class="row2">
+          <div class="aside">
+            <div class="flex-aside">
+              <div class="live"></div>
+
+              <div class=" "></div>
+            </div>
+
+            <article class="societe">POULS DE LA SOCIETE</article>
+            <br />
+
+            <div class="tache">
+              <nav class="mes_tache">MES TÂCHES</nav>
+
+              <nav class="en_cours">En cours <span>4</span></nav>
+              <hr />
+              <nav class="assiste">J'assiste <span>2</span></nav>
+              <hr />
+              <nav class="assigne">J'assigne <span>0</span></nav>
+              <hr />
+              <nav class="observe">J'observe <span>6</span></nav>
+              <hr />
+            </div>
+
+            <!-- application de bureau-->
+
+            <div class="app-bureau">APPLICATION DE BUREAU</div>
+
+            <div class="application">
+              <nav class="Windows"><i class="fa fa-windows"> </i> WINDOWS</nav>
+
+              <nav class="mac"><i class="fa fa-apple"> </i> MAC</nav>
+
+              <nav class="linux"><i class="fa fa-linux"> </i> LINUX</nav>
+            </div>
+
+            <!-- end application de bureau-->
+
+            <!-- application mobile-->
+            <div class="app-mobile">APPLICATION MOBILE</div>
+
+            <div class="application">
+              <nav class="app_stor">
+                <i class="fab fa-app-store-ios"></i> APP STOR
+              </nav>
+
+              <nav class="google_play">
+                <i class="fab fa-google-play"></i> GOOGLE PLAY
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!-- end cote droite-->
+      </div>
+
+      <!-- end Page content fixed -->
+
+      <!-- scroll -->
+      <div class="actuality">
+        <div class="interne">
+          <h3>
+            <i id="icon-name" class="fas fa-user-circle"></i> JAONAH BEZARA
+          </h3>
+          <span>Ajourd'hui 03:25 </span>
+          <p>Justin JAONAH BEZARA a créé une tâche projet fin de formation</p>
+          <hr />
+          <span>responsable : Justin </span>
+          <br />
+
+          <input
+            id="commentaire"
+            type="text"
+            class="form-control input-lg"
+            placeholder="Ajouter un commentaire ..."
+          />
+          <br />
+        </div>
+        <hr />
+
+        <div class="interne">
+          <h3><i id="icon-name" class="fas fa-user-circle"></i> JHONY</h3>
+          <span>Ajourd'hui 10:25 </span>
+          <p>JHONY a créé une tâche projet fin de formation</p>
+          <hr />
+          <span>responsable : JHONNY </span> <br />
+
+          <input
+            id="commentaire"
+            type="text"
+            class="form-control"
+            placeholder="Ajouter un commentaire ..."
+          />
+          <br />
+        </div>
+        <div class="interne">
+          <h3><i id="icon-name" class="fas fa-user-circle"></i> JHONY</h3>
+          <span>Ajourd'hui 10:25 </span>
+          <p>JHONY a créé une tâche projet fin de formation</p>
+          <hr />
+          <span>responsable : JHONNY </span> <br />
+
+          <input
+            id="commentaire"
+            type="text"
+            class="form-control"
+            placeholder="Ajouter un commentaire ..."
+          />
+          <br />
+        </div>
+      </div>
+      <!--end  scroll -->
+
+      <!--footer-->
+
+      <footer></footer>
+
+      <!--end footer-->
+    </section>
+
+    <!--end section -->
+
+    <script type="text/javascript" src="java.js"></script>
+  </body>
+</html>

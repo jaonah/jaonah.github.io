@@ -1,0 +1,589 @@
+@media screen and (max-width: 1280px ){
+
+    .home{
+
+        width: 873px;
+      }
+    
+      .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;
+        width: 874px;
+    
+        
+      }
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+     
+  
+}
+
+@media screen and (max-width: 1200px ){
+
+    .home{
+
+        width: 800px;
+      }
+    
+      .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;
+        width: 800px;
+
+    
+        
+      }
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+      
+      .flex-container {
+        display: flex;
+        flex-direction: wrap;
+      }
+      .flex-container > div {
+        padding-left: 45px;
+      }
+      #logo {
+        float: left;
+      }
+      .bar-anonym {
+        padding-top: 10px;
+        color: #fff;
+      }
+      #search {
+        border: hidden;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(20px);
+        padding: 5px;
+      }
+      #upgrade {
+        border: hidden;
+        border-radius: 30px;
+        background-color: rgb(228, 132, 54);
+    
+        padding: 5px;
+        width: 70px;
+      }
+      #invite {
+        border: hidden;
+        border-radius: 30px;
+        padding: 5px;
+        width: 70px;
+        background-color: rgb(47, 197, 197);
+        
+      }
+      #name{
+    
+        font-weight: bold;
+        font-size: 20px;
+      }
+      #icon-name{
+    
+        font-size: 25px;
+        
+      }
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  < à 1080px */
+
+@media screen and (max-width: 1080px ){
+
+    .home{
+
+        width: 680px;
+      }
+
+
+
+
+    .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;
+        
+        width: 680px;
+        
+    
+        
+      }
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+    
+    
+.flex-container {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .flex-container > div {
+    padding-left: 25px;
+  }
+  #logo {
+    float: left;
+  }
+  .bar-anonym {
+    padding-top: 10px;
+    color: #fff;
+  }
+  #search {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(20px);
+    padding: 5px;
+  }
+  #upgrade {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(228, 132, 54);
+
+    padding: 5px;
+    width: 70px;
+  }
+  #invite {
+    border: hidden;
+    border-radius: 30px;
+    padding: 5px;
+    width: 70px;
+    background-color: rgb(47, 197, 197);
+    
+  }
+  #name{
+
+    font-weight: bold;
+    font-size: 17px;
+  }
+  #icon-name{
+
+    font-size: 25px;
+    
+  }
+      
+
+}
+
+/*  < à 1024px */
+
+@media screen and (max-width:1024px){
+    .row2{
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 100% ;/* Set the width of the sidebar */
+        position: static;/* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 65px; /* Stay at the top */
+        right: 0;
+        
+        overflow-x: hidden; /* Disable horizontal scroll */
+      }
+
+      .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;        
+        width: 670px;
+        
+      }
+    
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+      
+      .interne{
+        height: 200px;
+      
+        width: 100%;
+        margin: auto;
+      }
+      
+      .interne1{
+        height: 250px;
+        padding-bottom: 20px;
+        width: 100%;
+        margin: auto;
+      }
+      /* end scroll */
+      .navbar1 {
+        overflow: hidden;
+        background-color:  rgb(3, 56, 58);
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+       
+        
+      }
+      .home{
+
+        
+        width: 670px;
+      }
+      #input-message {
+    
+        font-size: 20px;
+        padding: 30px;
+        border: hidden;
+        width: 100%;
+        border-color: none;
+       
+        
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: wrap;
+      }
+      .flex-container > div {
+        padding-left: 25px;
+      }
+      #logo {
+        float: left;
+        width: 100%;
+      
+      
+      }
+      .bar-anonym {
+        padding-top: 10px;
+        color: #fff;
+      }
+      #search {
+        border: hidden;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(20px);
+        padding: 5px;
+      }
+      #upgrade {
+        border: hidden;
+        border-radius: 30px;
+        background-color: rgb(228, 132, 54);
+    
+        padding: 5px;
+        width: 70px;
+      }
+      #invite {
+        border: hidden;
+        border-radius: 30px;
+        padding: 5px;
+        width: 70px;
+        background-color: rgb(47, 197, 197);
+        
+      }
+      #name{
+    
+        font-weight: bold;
+        font-size: 17px;
+      }
+      #icon-name{
+    
+        font-size: 25px;
+        
+      }
+
+   
+          
+      .row2{
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 250px ;/* Set the width of the sidebar */
+        position: fixed;  /* Fixed Sidebar (stay in place on scroll) */
+       /* Stay on top */
+         /* Stay at the top */
+        right  :0;
+        z-index: 1;
+        
+       
+      }
+ 
+      
+      
+}
+
+/* < 991 */
+
+@media screen and (max-width: 1080px ){
+
+    .home{
+
+        width: 610px;
+      }
+
+
+
+
+    .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;
+        
+        width: 610px;
+        
+    
+        
+      }
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+    
+    
+.flex-container {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .flex-container > div {
+    padding-left: 15px;
+  }
+  #logo {
+    float: left;
+    
+    
+  }
+  .bar-anonym {
+    padding-top: 10px;
+    color: #fff;
+  }
+  #search {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(20px);
+    
+    width: 100%;
+    
+  }
+  #upgrade {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(228, 132, 54);
+
+    padding: 5px;
+    width: 70px;
+  }
+  #invite {
+    border: hidden;
+    border-radius: 30px;
+    padding: 5px;
+    width: 70px;
+    background-color: rgb(47, 197, 197);
+    
+  }
+  #heure {
+
+    padding-left: 15px;
+  }
+  #name{
+
+    font-weight: bold;
+    font-size: 17px;
+  }
+  #icon-name{
+
+    font-size: 25px;
+    
+  }
+  .row2{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 280px ;/* Set the width of the sidebar */
+    position: fixed;  /* Fixed Sidebar (stay in place on scroll) */
+   /* Stay on top */
+     /* Stay at the top */
+    right  :0;
+    z-index: 1;
+    
+   
+  }
+
+      
+
+}
+
+
+/* < 767 */
+
+@media screen and (max-width: 767px ){
+
+ 
+    .home{
+
+        width: 100%;
+      }
+
+
+
+
+    .actuality {
+        background-color: rgb(255, 255, 255);
+        margin-right: 337px;
+        color: #000000a8;
+        margin-top: 200px;
+        text-align: justify;
+        
+        width: 100%;
+        
+    
+        
+      }
+      #commentaire{
+    
+        font-size: 20px;
+       
+        border: #c2c1c1 1px solid;
+        
+        width: 600px;
+        border-color: none;
+        border-radius: 20px;
+      }
+    
+    
+.flex-container {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .flex-container > div {
+    padding-left: 25px;
+  }
+  #logo {
+    float: left;
+    
+    
+  }
+  .bar-anonym {
+    padding-top: 10px;
+    color: #fff;
+  }
+  #search {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-right: 1px;
+    display: none;
+    
+  }
+  #upgrade {
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(228, 132, 54);
+
+    padding: 5px;
+    width: 100%;
+    display: none;
+  }
+  #invite {
+    border: hidden;
+    border-radius: 30px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(47, 197, 197);
+    
+    
+  }
+  #heure {
+
+    padding-left: 15px;
+    
+  }
+  #name{
+
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #icon-name{
+
+    font-size: 25px;
+    
+  }
+  .row2{
+   
+    display: none;
+    
+   
+  }
+
+  #commentaire{
+    
+    font-size: 20px;
+   
+    border: #c2c1c1 1px solid;
+    
+    width: 600px;
+    border-color: none;
+    border-radius: 20px;
+  }
+  
+  .interne{
+    height: 200px;
+  
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  .interne1{
+    height: 250px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
+  }
+      
+
+}
+
+
